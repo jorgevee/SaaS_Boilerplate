@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriptions",
+  "info": {
+    "singularName": "subscription",
+    "pluralName": "subscriptions",
+    "displayName": "Subscription"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "interval": {
+      "type": "string"
+    },
+    "trialPeriod": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "enumeration",
+      "enum": [
+        "feature1"
+      ]
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}
